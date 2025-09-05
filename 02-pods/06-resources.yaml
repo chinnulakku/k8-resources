@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hello-Pod
- spec:
+spec:
   # list of containers
   containers: 
   - name: hello-Pod
