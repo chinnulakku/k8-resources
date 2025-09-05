@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: pod
 metadata: 
-  name: ocnfig-pod
-  namespace: roboshop
-spec:
+  name: config-pod
+  spec:
   # list of containers
   container:
   - name: config-pod
