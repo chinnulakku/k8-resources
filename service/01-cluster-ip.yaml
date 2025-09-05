@@ -7,7 +7,7 @@ metadata:
     demo: service
 spec:
   #list of containers
-  container:
+  containers:
   - name: nginx-pod
     image: nginx
     #here with this line port will not be opened, just for information
